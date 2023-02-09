@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.exam.ExamserverApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.262 s <<< FAILURE! - in com.exam.ExamserverApplicationTests
+contextLoads  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: 
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@1:44 - no applicable action for [logger], current ElementPath  is [[logger]]
+Caused by: java.lang.IllegalStateException: 
+Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@1:44 - no applicable action for [logger], current ElementPath  is [[logger]]
+
